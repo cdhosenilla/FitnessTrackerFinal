@@ -15,7 +15,7 @@ export default StyleSheet.create({
     fontSize: 24,
     fontWeight: 'bold',
     textAlign: 'center',
-    marginTop: 100,
+    marginTop: '15%',
     color: 'white',
     marginBottom: 40,
   },
@@ -33,6 +33,12 @@ export default StyleSheet.create({
     borderColor: '#ccc',
     borderRadius: 5,
     marginBottom: 1,
+  },
+
+  forgotPasswordText: {
+    color: '#ffc145', // or any color you prefer
+    marginTop: 10,
+    textAlign: 'center', // center the text if needed
   },
 
   inputContainerConPass: {
@@ -78,8 +84,8 @@ export default StyleSheet.create({
     padding: 15,
     borderRadius: 5,
     alignItems: 'center',
-    marginBottom: 20,
-    marginTop: 10,
+    marginBottom: 5,
+
   },
 
   signUpButton: {

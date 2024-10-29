@@ -13,19 +13,32 @@ const styles = StyleSheet.create({
     // Additional styling for your main content can go here
   },
   header: {
-    flexDirection: 'row',
-    justifyContent: 'space-between',
-    alignItems: 'center',
-    marginTop: 0,
+    textAlign: 'center',
+    color: 'white',
+    marginTop: '10%',
     marginLeft: 20,
     marginRight: 20,
-    marginBottom: 50,
+    marginBottom: '5%',
+
   
   },
+  textHeader: {
+    textAlign: 'center',
+    color: 'white',
+    fontSize: 65,
+  },
+
   profilePic: {
-    width: 70,
-    height: 70,
-    borderRadius: 50,
+    width: '70%',
+    height: '50%',
+    marginBottom: '-15%',
+  },
+  profilePic2: {
+    display: 'flex',
+    maxHeight: '40%',
+    maxWidth: '80%',
+    objectFit: 'scale-down',
+    marginBottom: -50,
   },
 
   //tips 
@@ -42,7 +55,6 @@ const styles = StyleSheet.create({
   ContainerBody: {
     flex: 1,
     backgroundColor: '#B4B5B6', //darkblue
-    padding: 20,
     borderRadius: 15,
     margin: 0,
     shadowColor: '#000',
@@ -50,7 +62,28 @@ const styles = StyleSheet.create({
     shadowOpacity: 0.2,
     shadowRadius: 4,
     elevation: 5,
+    justifyContent: 'flex-start',
+    alignItems: 'center',
+    paddingBottom: '10%',
+    
   },
+
+  LogoutButton: {
+    backgroundColor: '#FFC145', // Customize the button color
+    paddingVertical: 10,
+    paddingHorizontal: 20,
+    borderRadius: 10,
+    marginVertical: 10, // Space between each button
+    width: '80%', // Make button width responsive
+    alignItems: 'center',
+  },
+
+  buttonText: {
+    color: '#ffffff',
+    fontSize: 16,
+    fontWeight: 'bold',
+  },
+  
   tipsContainer1: {
     borderColor: 'black',
     flexDirection: 'column',

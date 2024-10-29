@@ -16,15 +16,54 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     justifyContent: 'space-between',
     alignItems: 'center',
-    marginTop: 20,
+    marginTop: 0,
     marginLeft: 20,
     marginRight: 20,
   },
   profilePic: {
-    width: 70,
-    height: 70,
-    borderRadius: 50,
+    width: 200,
+    height: 200,
+    borderRadius: 100,
   },
+  centerContainer: {
+    justifyContent: 'flex-start',
+    alignItems: 'center',
+    marginTop: '20%',
+    paddingBottom: '10%',
+  },
+  buttonContainer: {
+    marginTop: 20, // Space between profile picture and buttons
+    alignItems: 'center', // Center the buttons horizontally
+    width: '100%',
+  },
+  
+  profileButton: {
+    backgroundColor: '#FFC145', // Customize the button color
+    paddingVertical: 10,
+    paddingHorizontal: 20,
+    borderRadius: 10,
+    marginVertical: 10, // Space between each button
+    width: '80%', // Make button width responsive
+    alignItems: 'center',
+  },
+  
+  LogoutButton: {
+    backgroundColor: '#FFC145', // Customize the button color
+    paddingVertical: 10,
+    paddingHorizontal: 20,
+    marginTop: '20%',
+    borderRadius: 10,
+    marginVertical: 10, // Space between each button
+    width: '80%', // Make button width responsive
+    alignItems: 'center',
+  },
+  
+  buttonText: {
+    color: '#ffffff',
+    fontSize: 16,
+    fontWeight: 'bold',
+  },
+
   greeting: {
     fontSize: 50,
     fontWeight: 'bold',

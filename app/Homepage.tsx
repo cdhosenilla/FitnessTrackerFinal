@@ -46,10 +46,12 @@ const Homepage = () => {
           <TouchableOpacity onPress={() => alert('Open Menu Placeholder')}>
             <FontAwesome name="bars" size={50} color="#FFC145" />
           </TouchableOpacity>
+          <TouchableOpacity           onPress={() => navigation.navigate('Profile')}>
           <Image
             source={require('../assets/images/alabotpfp.jpg')} // Update with your image path
             style={styles.profilePic}
           />
+          </TouchableOpacity>
         </View>
 
         {/* Greeting Section */}

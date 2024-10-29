@@ -4,8 +4,7 @@ import { StyleSheet, View } from 'react-native';
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#B4B5B6',
-
+    backgroundColor: '#0A2342',
   },
   mainContent: {
     flex: 1, // Fill the remaining space in the container
@@ -16,114 +15,90 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     justifyContent: 'space-between',
     alignItems: 'center',
-    marginTop: 20,
+    marginTop: 0,
     marginLeft: 20,
     marginRight: 20,
+
+  
   },
   profilePic: {
     width: 70,
     height: 70,
     borderRadius: 50,
   },
-  greeting: {
-    fontSize: 50,
-    fontWeight: 'bold',
-    paddingTop: 20,
-    marginVertical: 10,
-    marginLeft: 20,
-  },
-  date: {
-    fontSize: 18,
-    color: '#7E7E7E',
-    paddingLeft: 7,
-    marginLeft: 20,
-  },
-  dateNav: {
-    flexDirection: 'row', // Horizontal arrangement for the date navigation
-    justifyContent: 'space-around', // Spread the items evenly
-    marginVertical: 20,
-  },
-  dateItem: {
-    borderRadius: 10, // Optionally, add rounded corners
-    padding: 20,
 
-  },
-  dayLabel: {
-    paddingBottom: 15,
-    fontSize: 18,
-    color: '#7E7E7E',
-  },
-  dayNumber: {
+  sectionTitle: {
     fontSize: 20,
     fontWeight: 'bold',
+    color: '#FFFFFF',
+    marginTop: 20,
+    marginLeft: 20,
+    marginRight: 20,
+
   },
 
-  todayContainer: {
-    backgroundColor: '#FFC145', // Background color for today’s date
-    borderRadius: 10, // Optionally, add rounded corners
-    padding: 20, // Ensure the content is centered with some space
-  },
-
-  todayLabel: {
-    color: 'white', // White font color for today's day label
-    paddingBottom: 15,
-    fontSize: 18,
-  },
-
-  todayNumber: {
-    color: '#FECF57', // Highlight the current day number
+  sectionTitle2: {
+    fontSize: 20,
     fontWeight: 'bold',
+    color: '#FFFFFF',
+    marginLeft: 20,
+    marginRight: 20,
+
   },
-  day: {
-    fontSize: 16,
+  line: {
+    borderBottomColor: '#CCC',
+    borderBottomWidth: 1,
+    marginVertical: 10,
+    margin: 20
+  },
+  suggestionsContainer: {
+    paddingTop: 10,
+    paddingBottom: 10,
+    flexDirection: 'row',
+    maxHeight: 200,
+  },
+  suggestionButton: {
+    alignItems: 'center',
+    width: 150,
+    padding: 10,
+    marginRight: 15,
+    backgroundColor: '#FFF',
+    borderRadius: 10,
+    height: 170,
+  },
+  suggestionImage: {
+    width: 100,
+    height: 100,
+    borderRadius: 10,
+  },
+  suggestionText: {
+    fontSize: 14,
+    color: '#333',
     textAlign: 'center',
   },
-  today: {
-    color: '#FECF57',
-    fontWeight: 'bold',
-  },
-  statsContainer: {
+  fullBodyButton: {
     flexDirection: 'row',
-    justifyContent: 'space-around',
-    marginVertical: 20,
-  },
-  statBox: {
     alignItems: 'center',
+    backgroundColor: '#FFF',
+    padding: 0,
+    borderRadius: 10,
+    marginTop: 10,
+    marginLeft: 50,
+    marginRight: 50,
+    marginBottom: 5,
   },
-  statLabel: {
-    fontSize: 14,
-    color: '#7E7E7E',
+  fullBodyImage: {
+    width: 50,
+    height: 50,
+    marginRight: 10,
+    borderRadius: 10,
   },
-  statValue: {
-    fontSize: 20,
-    fontWeight: 'bold',
+  fullBodyText: {
+    fontSize: 16,
+    color: '#333',
   },
-  chooseDifficulty: {
-    fontSize: 18,
-    fontWeight: 'bold',
-    marginVertical: 20,
-    marginLeft: 20,
-  },
-  workoutButtons: {
-    flexDirection: 'column',
-    justifyContent: 'space-between',
-    marginLeft: 20,
-  },
-  workoutOption: {
-    flexDirection: 'row', // Arrange children in a row (horizontally)
-    alignItems: 'center', // Center align items vertically within the container
-    padding: 10, // Optional: Add some padding for better 
-
-  },
-  workoutImage: {
-    width: 60, // Set the width of the image
-    height: 60, // Set the height of the image
-    marginRight: 10, // Add some space between the image and text
-  },
-
-  workoutText: {
-    fontSize: 16, // Set the font size for the text
-    color: '#333', // Optional: Set text color
+  fullBodyScrollContainer: {
+    maxHeight: 300,
   },
 
   bottomNav: {
@@ -236,5 +211,6 @@ const styles = StyleSheet.create({
 
 
 });
+
 
 export default styles;
