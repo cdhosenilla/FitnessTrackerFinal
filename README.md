@@ -1,11 +1,5 @@
 # Welcome to our Expo app 👋
-# HOSENILLA EDIT 16-10-2024
-# ang index.tsx gin add ko sa app/(tabs)/index
-# ang design sa components/LogInSTYLES.tsx
-# HOSENILLA EDIT 17-10-2024
-# na install ko rn tailwind css. || import tw from 'tailwind-react-native-classnames';
-# nag add ako show/hide password function
-#
+
 This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
 
 ## Get started
