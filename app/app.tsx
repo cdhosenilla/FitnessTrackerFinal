@@ -2,7 +2,7 @@ import React from 'react';
 import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
 
-// Import your screen components
+// Import your screen componentss
 import GetStarted from './GetStarted';
 import Index from './index';
 import Homepage from './Homepage'; 
